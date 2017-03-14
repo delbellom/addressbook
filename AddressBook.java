@@ -16,3 +16,8 @@ public void addContact(Contact c){
 	friends[numfriends] = c;
 	numFriends++;
 }
+
+public void printContacts(){
+	for (contact cc: AddressBook)
+		friends[cc].printContact();
+	
